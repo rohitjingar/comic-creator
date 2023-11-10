@@ -1,0 +1,41 @@
+/* Header.css */
+header {
+  background-color: #474d47;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+
+nav ul li a {
+  text-decoration: none; /* Add this line to remove the underline */
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #131413;
+}
+
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+  
